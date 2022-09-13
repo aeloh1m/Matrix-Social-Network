@@ -21,7 +21,11 @@
     "eject": "react-scripts eject",
     "client": "cd client && npm start",
     "server": "cd .. && cd server && node index.js",
-    "dev": "concurrently \"npm run server\" \"npm start\""
+    "dev": "concurrently \"npm run server\" \"npm start\"",
+    "install-fe": "npm install",
+    "install-be": "cd .. && cd server && npm install",
+    "install-ot": "cd .. && npm install",
+    "dependencies": "concurrently \"npm run install-fe\" \"npm run install-ot\" \"npm run install-be\""
   },
   "proxy": "http://localhost:3001/",
   "eslintConfig": {
