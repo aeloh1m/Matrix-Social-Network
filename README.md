@@ -15,6 +15,7 @@
 	
 ---- ¿Cómo instalar dependencias? ---
 	1) Ir al directorio front-client
+		"cd Matrix  \ cd front-client"
 	2) Correr el comando "npm install"
 	3) Iniciar comando "npm run dependencies" y se encargará de bajar lo necesario para correr el programa.
 
