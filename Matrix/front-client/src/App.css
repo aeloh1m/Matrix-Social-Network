@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+
+#container {
+  position: relative;
+}
+#container canvas, #overlay {
+  position: absolute;
+}
+
+.layout{
+  position:absolute;
+  width:100%;
+  height:100px;
+}
+
+
+.matrix-canva {
+}
+
+.header {
+  color: red;
+  /* width: 175%; */
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.login-header {
+  display: flex;
+  position: sticky;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  width: 75%;
+}

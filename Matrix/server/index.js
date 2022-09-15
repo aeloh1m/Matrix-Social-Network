@@ -34,7 +34,7 @@ conn.connect((err) =>{
   if(err) throw err;
   console.log('Mysql Connected...');
 });
-  
+
   
 //add new user
 app.post('/store-data',(req, res) => {
