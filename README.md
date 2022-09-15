@@ -18,6 +18,8 @@
 	2) Correr el comando "npm install"
 	3) Iniciar comando "npm run dependencies" y se encargará de bajar lo necesario para correr el programa.
 
+	! Importante: Tener bajado MySQL, link: https://dev.mysql.com/downloads/file/?id=512697
+
 3) ¿Cómo iniciar el programa?
 	
 	Simplemente iniciar el comando predefinido "npm run dev" y el programa estará corriendo en el navegador, dirección:
