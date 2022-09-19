@@ -9,6 +9,7 @@ import {
   Route,
 } from "react-router-dom";
 import Expenses from "./routes/expenses";
+import Feed from "./components/Feed/Feed";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,6 +18,7 @@ root.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="expenses" element={<Expenses />} />
+      <Route path="feed" element={<Feed />} />
     </Routes>
   </BrowserRouter>
 );
