@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import { Link } from "react-router-dom";
 import MyCanvas from "./components/FrontPage/Canva/MyCanvas";
 import MatrixCanva from "./components/FrontPage/MatrixCanva";
 import Login from "./components/User/Login/Login";
@@ -26,7 +27,6 @@ function App({ canvaID }) {
       <div className="login-header">
       <Login/>
       </div>
-
 
     </div>
   );
