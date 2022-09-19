@@ -1,0 +1,18 @@
+=====================================================================================================
+                                            Documentación                       
+=====================================================================================================
+
+*) Proceso para generar las "routes"
+
+- Instalación de las dependencias 
+
+npm install react-router
+npm install react-router-dom --save
+
+- Modificar tanto App.js como index.js
+
+Index.js en lo principal nos permitirá el enrutado.
+
+Info: https://reactrouter.com/en/v6.3.0/getting-started/tutorial
+
+
