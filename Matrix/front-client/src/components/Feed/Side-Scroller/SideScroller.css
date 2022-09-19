@@ -1,8 +1,8 @@
 .scroller {
     background-color: lightblue;
     border: 1px solid black;
-    height: 100px;
-    width: 500px;
+    height: 500px;
+    width: 1500px;
     overflow-x: scroll;
 }
 

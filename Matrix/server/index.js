@@ -10,7 +10,6 @@ const PORT = process.env.PORT || 3001;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-app.use(require('../front-client/routes/index'));
 
 
 app.get("/api", (req, res) => {
