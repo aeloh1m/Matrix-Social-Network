@@ -50,8 +50,9 @@ const MatrixCanva = () => {
 
         }
 
-        // Canvas resizer => Makes the canvas dynamic to the web browser
-
+        setInterval(matrix, 50);
+        
+        // Canvas resizer => Makes the canvas dynamic for the web browser
         const resize = () => {
             canvas.width = window.innerWidth;
             canvas.height = window.innerHeight - 400; // -400 sets the correct value
@@ -60,7 +61,6 @@ const MatrixCanva = () => {
         resize()
         window.addEventListener('resize', resize)
 
-        setInterval(matrix, 50);
 
 
 
