@@ -1,0 +1,12 @@
+.scroller {
+    background-color: lightblue;
+    border: 1px solid black;
+    height: 100px;
+    width: 500px;
+    overflow-x: scroll;
+}
+
+.p {
+    width: 100%;
+    margin: 10px;
+}

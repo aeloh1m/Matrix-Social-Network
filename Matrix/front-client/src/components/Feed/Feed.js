@@ -1,8 +1,11 @@
 import React from 'react'
+import SideScroller from './Side-Scroller/SideScroller'
 
 const Feed = () => {
   return (
-    <div>El feed routing ta funcando</div>
+    <div>
+      <SideScroller/>
+    </div>
   )
 }
 
