@@ -12,6 +12,7 @@
 	-Cors
 	-Concurrently
 	- React Bootstrap
+	- React Routes
 	
 ---- ¿Cómo instalar dependencias? ---
 	1) Ir al directorio front-client
